@@ -1,39 +1,43 @@
-*{
+* {
     font-family: 'Oswald', sans-serif;
 }
-#headder{
+
+#headder {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 80px;
 
 }
 
-#logo{
-width: 60px;
-height: 60px;
+
+
+#logo {
+    width: 60px;
+    height: 60px;
 }
 
-#name{
-font-family: 'Oswald';
-font-style:normal;
-font-weight:bold;
-font-size: 60px;
-color: #000000;
-padding-left: 15px;
+#name {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: #000000;
+    padding-left: 15px;
 }
 
-#textArea{
+#textArea {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    padding-top: 100px ;
+    padding-top: 80px;
 }
-#myText{
+
+#myText {
     background-color: #EEECEC;
-    width: 50%;
+    width: 70%;
     font-size: 30px;
     font-weight: bold;
     border: none;
@@ -43,23 +47,28 @@ padding-left: 15px;
     padding-left: 15px;
 
 }
-.addBtn{
-    width: 10%;
-    background-color:#0075FF;
+
+.addBtn {
+    width: ;
+    background-color: #0075FF;
     color: white;
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
     padding: 5px;
-    cursor: pointer ;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
 }
-.addBtn:hover{
-    background-color:#0062d1;
+
+.addBtn:hover {
+    background-color: #0062d1;
 }
-#newTask{
+
+#newTask {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     width: 60%;
     font-size: 20px;
