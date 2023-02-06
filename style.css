@@ -79,10 +79,20 @@
     background-color: #0062d1;
 }
 
+@media only screen and (max-width: 600px) {
+
+    #newTask {
+        margin: auto;
+        display: flex;
+        width: 80%;
+    }
+
+}
+
 #newTask {
     display: flex;
-    flex-direction: column;
-    width: 60%;
+    margin: auto;
+    width: 70%;
     font-size: 25px;
     font-weight: bold;
     padding-top: 100px;
