@@ -86,6 +86,11 @@
         display: flex;
         width: 80%;
     }
+    #message{
+        font-size: 10px;
+
+
+    }
 
 }
 
