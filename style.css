@@ -1,7 +1,21 @@
 * {
     font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
 }
 
+@media only screen and (max-width: 600px) {
+
+    #myInput {
+        width: 70%;
+    }
+
+    .addBtn {
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
 #headder {
     display: flex;
     flex-direction: row;
@@ -35,7 +49,7 @@
     padding-top: 80px;
 }
 
-#myText {
+#myInput {
     background-color: #EEECEC;
     width: 70%;
     font-size: 30px;
@@ -68,9 +82,70 @@
 #newTask {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 60%;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
+    padding-top: 100px;
+
+
+
 }
+Ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+
+}
+ul li{
+    position: relative;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding:  5px 10px 5px 10px;
+    list-style-type: none;
+    width: 100%;
+}
+ul li:hover{
+    color: white;
+    background-color: #0062d1;
+}
+ul li:nth-child(odd):hover{
+    color: white;
+    background-color: #0062d1;
+}
+ul li:checked{
+    background-color: #539df3;
+    text-decoration: line-through;
+
+}
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #0062d1;
+    border-style: solid;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  
+  /* Style the close button */
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 10px 5px 10px;
+  }
+  
+  .close:hover {
+    background-color: #004390;
+    color: white;}
+
+    #message{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+
+    }
